@@ -60,14 +60,8 @@ test {
     useJUnitPlatform()
 }
 
-task remote_test(type: Test) {
+task ui_test(type: Test) {
     useJUnitPlatform {
-        includeTags("remote")
-    }
-}
-
-task param_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("parameters")
+        includeTags("ui")
     }
 }
