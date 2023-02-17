@@ -14,8 +14,8 @@ public class CommonTests extends TestBaseExtended {
     private final String URL_BUSINESS_PAGE = "https://cifra-broker.ru/business/";
     private final String URL_LOGIN_PAGE = "https://tradernet.ru/authentication/login/";
     private final String URL_ANALYTICS_PAGE = "https://cifra-broker.ru/analytics/";
-    private static String URL_TARIFF_PAGE = "https://cifra-broker.ru/tariffs/";
-    private static String URL_EDUCATION_PAGE = "https://webinar.cifra-broker.ru/";
+    private final String URL_TARIFF_PAGE = "https://cifra-broker.ru/tariffs/";
+    private final String URL_EDUCATION_PAGE = "https://webinar.cifra-broker.ru/";
 
     @Test
     @Owner("almoiseeva")
