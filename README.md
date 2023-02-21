@@ -41,7 +41,7 @@
 ## <img src="images/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
 <a target="_blank" href="https://jenkins.autotests.cloud/job/017-any_mois-cifra-broker-tests/5/">Сборка в Jenkins</a>
 <p align="center">
-<a href="https://jenkins.autotests.cloud/job/berezkindv_performance_lab_complete_project/"><img src="images/jenkins_job.png" alt="Jenkins"/></a>
+<img src="images/jenkins_job.png" alt="Jenkins"/></a>
 </p>
 
 ### Параметры сборки в Jenkins:
@@ -87,7 +87,9 @@ clean ui_test
 <img title="Allure Graphics" src="images/allure_graphics.png">
 </p>
 
-## <img src="images/Allure_EE.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с <a target="_blank" https://allure.autotests.cloud/project/1897/launches">Allure TestOps</a>
+## <img src="images/Allure_EE.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с <a target="_blank" 
+href="https://allure.autotests.cloud/launch/19377">Allure TestOps</a>
+
 
 ### Дашборд
 
@@ -101,7 +103,7 @@ clean ui_test
 <img title="Allure TestOps Tests" src="images/testOps_tests.png">
 </p>
 
-## <img src="images/Jira.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с трекером задач <a target="_blank" https://jira.autotests.cloud/browse/HOMEWORK-543">Jira</a>
+## <img src="images/Jira.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с трекером задач <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-543">Jira</a>
 
 <p align="center">
 <img title="Jira" src="images/jira_task.png">
