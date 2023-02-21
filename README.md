@@ -46,10 +46,10 @@
 
 ### Параметры сборки в Jenkins:
 
-- browser (браузер, по умолчанию chrome)
-- browserVersion (версия браузера, по умолчанию 91.0)
-- browserSize (размер окна браузера, по умолчанию 1920x1080)
-- remoteDriverUrl (логин, пароль и адрес удаленного сервера selenoid или grid)
+- BROWSER (браузер, по умолчанию chrome)
+- VERSION (версия браузера, по умолчанию 100.0)
+- SIZE (размер окна браузера, по умолчанию 1920x1080)
+- URL (логин, пароль и адрес удаленного сервера selenoid)
 
 ## :computer: Запуск тестов из терминала
 
@@ -62,9 +62,9 @@ gradle clean ui_test
 ```bash
 clean ui_test
 -Dbrowser=${BROWSER}
--DbrowserVersion=${BROWSER_VERSION}
--DbrowserSize=${BROWSER_SIZE}
--DremoteDriverUrl=https://${LOGIN}:${PASSWORD}@${REMOTE_DRIVER_URL}/wd/hub/
+-Dversion=${VERSION}
+-DbrowserSize=${SIZE}
+-DremoteUrl=${URL}
 ```
 
 ## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/017-any_mois-cifra-broker-tests/allure/">Allure report</a>
@@ -89,7 +89,7 @@ clean ui_test
 
 ## <img src="images/Allure_EE.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с <a target="_blank" https://allure.autotests.cloud/project/1897/launches">Allure TestOps</a>
 
-### Дашбордhttps://allure.autotests.cloud/project/1897/launches
+### Дашборд
 
 <p align="center">
 <img title="Allure TestOps Dashboard" src="images/testOps_main.png">
@@ -101,7 +101,7 @@ clean ui_test
 <img title="Allure TestOps Tests" src="images/testOps_tests.png">
 </p>
 
-## <img src="images/Jira.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с трекером задач <a target="_blank" https://jira.autotests.cloud/browse/HOMEWORK-543?filter=-6">Jira</a>
+## <img src="images/Jira.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с трекером задач <a target="_blank" https://jira.autotests.cloud/browse/HOMEWORK-543">Jira</a>
 
 <p align="center">
 <img title="Jira" src="images/jira_task.png">
