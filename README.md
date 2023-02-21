@@ -11,7 +11,6 @@
 - [Интеграция с Allure TestOps](#earth_africa-Интеграция-с-Allure-TestOps)
 - [Интеграция с Jira](#earth_africa-Интеграция-с-Jira)
 - [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
-- [Видео примеры прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
 
 ## :rocket: Технологии и инструменты
 
@@ -40,7 +39,7 @@
 - ✓ Проверить ссылку на раздел "О нас"(ручная проверка).
 
 ## <img src="images/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
-<a target="_blank" href="https://jenkins.autotests.cloud/job/017-any_mois-cifra-broker-tests/">Сборка в Jenkins</a>
+<a target="_blank" href="https://jenkins.autotests.cloud/job/017-any_mois-cifra-broker-tests/5/">Сборка в Jenkins</a>
 <p align="center">
 <a href="https://jenkins.autotests.cloud/job/berezkindv_performance_lab_complete_project/"><img src="images/jenkins_job.png" alt="Jenkins"/></a>
 </p>
@@ -61,15 +60,14 @@ gradle clean ui_test
 
 Удаленный запуск:
 ```bash
-clean
-ui_test
+clean ui_test
 -Dbrowser=${BROWSER}
 -DbrowserVersion=${BROWSER_VERSION}
 -DbrowserSize=${BROWSER_SIZE}
 -DremoteDriverUrl=https://${LOGIN}:${PASSWORD}@${REMOTE_DRIVER_URL}/wd/hub/
 ```
 
-## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/berezkindv_performance_lab_complete_project/22/allure/">Allure report</a>
+## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/017-any_mois-cifra-broker-tests/allure/">Allure report</a>
 
 ### Основное окно
 
@@ -89,9 +87,9 @@ ui_test
 <img title="Allure Graphics" src="images/allure_graphics.png">
 </p>
 
-## <img src="images/Allure_EE.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud/launch/10223">Allure TestOps</a>
+## <img src="images/Allure_EE.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с <a target="_blank" https://allure.autotests.cloud/project/1897/launches">Allure TestOps</a>
 
-### Дашборд
+### Дашбордhttps://allure.autotests.cloud/project/1897/launches
 
 <p align="center">
 <img title="Allure TestOps Dashboard" src="images/testOps_main.png">
@@ -103,7 +101,7 @@ ui_test
 <img title="Allure TestOps Tests" src="images/testOps_tests.png">
 </p>
 
-## <img src="images/Jira.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с трекером задач <a target="_blank" href="https://jira.autotests.cloud/browse/AUTO-628">Jira</a>
+## <img src="images/Jira.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с трекером задач <a target="_blank" https://jira.autotests.cloud/browse/HOMEWORK-543?filter=-6">Jira</a>
 
 <p align="center">
 <img title="Jira" src="images/jira_task.png">
@@ -115,10 +113,3 @@ ui_test
 <img title="Allure Overview Dashboard" src="images/allure_telegram.png">
 </p>
 
-
-
-### <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Примеры видео о прохождении тестов
-
-<p align="center">
-<img title="Selenoid Video" src="images/video1.gif" width="250" height="153"  alt="video"> <img title="Selenoid Video" src="images/video2.gif" width="250" height="153"  alt="video"> <img title="Selenoid Video" src="images/video3.gif" width="250" height="153"  alt="video">
-</p>
