@@ -7,7 +7,8 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class MainPage extends Page {
 
-    private static final String URL =  "https://cifra-broker.ru/";;
+    private static final String URL = "https://cifra-broker.ru/";
+    ;
     private SelenideElement bankLink = $("[href='https://cifra-bank.ru/']"),
             businessLink = $("[href='/business/']"),
             loginBtn = $(".header__profile .btn-login "),
