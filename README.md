@@ -1,5 +1,5 @@
 # Проект по автоматизации тестирования для инвестиционной компании  "Фридом Финанс"
-<a target="_blank" href="https://www.performance-lab.ru/">Вэб сайт "Фридом Финанс"</a>
+<a target="_blank" href="https://cifra-broker.ru/">Вэб сайт "Фридом Финанс"</a>
 
 ## :pushpin: Содержание:
 
