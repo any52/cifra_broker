@@ -24,6 +24,7 @@
 <a href="https://aerokube.com/selenoid/"><img src="images/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a>
 <a href="https://github.com/allure-framework/allure2"><img src="images/Allure_Report.svg" width="50" height="50"  alt="Allure"/></a>
 <a href="https://www.jenkins.io/"><img src="images/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
+<a href="#video">Пример прогона теста в Selenoid</a>
 </p>
 
 ## :scroll: Реализованные тесты
@@ -111,5 +112,11 @@ clean ui_test
 
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/allure_telegram.png">
+</p>
+
+### <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Примеры видео о прохождении тестов
+
+<p align="center">
+<img title="Selenoid Video" src="images/video1.gif" width="250" height="153"  alt="video"> 
 </p>
 
