@@ -11,6 +11,7 @@
 - [Интеграция с Allure TestOps](#earth_africa-Интеграция-с-Allure-TestOps)
 - [Интеграция с Jira](#earth_africa-Интеграция-с-Jira)
 - [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
+- [Видео примеры прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
 
 ## :rocket: Технологии и инструменты
 
@@ -24,7 +25,6 @@
 <a href="https://aerokube.com/selenoid/"><img src="images/Selenoid.svg" width="50" height="50"  alt="Selenoid"/></a>
 <a href="https://github.com/allure-framework/allure2"><img src="images/Allure_Report.svg" width="50" height="50"  alt="Allure"/></a>
 <a href="https://www.jenkins.io/"><img src="images/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
-<a href="#video">Пример прогона теста в Selenoid</a>
 </p>
 
 ## :scroll: Реализованные тесты
