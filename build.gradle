@@ -28,7 +28,9 @@ dependencies {
             'org.assertj:assertj-core:3.23.1',
             'io.qameta.allure:allure-selenide:2.19.0',
             "org.aspectj:aspectjrt:1.9.8",
-            "org.aspectj:aspectjweaver:1.9.8")
+            "org.aspectj:aspectjweaver:1.9.8",
+            "org.aeonbits.owner:owner:1.0.4",
+            'io.github.bonigarcia:webdrivermanager:5.2.1')
     testRuntimeOnly(
             "org.junit.jupiter:junit-jupiter:5.8.2",
             "org.slf4j:slf4j-simple:1.7.29")

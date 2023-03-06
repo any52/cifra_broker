@@ -1,10 +1,7 @@
 package ru.cifra_broker.test;
 
 import io.qameta.allure.Owner;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Tag;
-import org.junit.jupiter.api.Test;
-
+import org.junit.jupiter.api.*;
 import static io.qameta.allure.Allure.step;
 import static ru.cifra_broker.helpers.Attach.veryfyConsoleLog;
 
@@ -15,7 +12,6 @@ public class CommonTests extends TestBaseExtended {
     private final String URL_LOGIN_PAGE = "https://tradernet.ru/authentication/login/";
     private final String URL_ANALYTICS_PAGE = "https://cifra-broker.ru/analytics/";
     private final String URL_TARIFF_PAGE = "https://cifra-broker.ru/tariffs/";
-    private final String URL_EDUCATION_PAGE = "https://webinar.cifra-broker.ru/";
 
     @Test
     @Owner("almoiseeva")
@@ -64,7 +60,7 @@ public class CommonTests extends TestBaseExtended {
         });
 
         step("Нажать на кнопку \"Войти\" ", () -> {
-            mainPage.clickLoginBtn(); //todo
+            mainPage.clickLoginBtn();
         });
 
         step("Проверить, что открылась страница " + URL_LOGIN_PAGE, () -> {
@@ -141,4 +137,5 @@ public class CommonTests extends TestBaseExtended {
         });
 
     }
+
 }
